@@ -22,6 +22,7 @@ def calculate_total_amount(ticket):
         product_name = sale_details[1].capitalize()
         unit_price = float(sale_details[2].replace(",", "."))
         
+        # Se evalúa si las unidades son negativas o positivas
         if units < 0:
             total -= unit_price
         else:
