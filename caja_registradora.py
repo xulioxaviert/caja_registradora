@@ -32,7 +32,7 @@ def calculate_total_amount(ticket):
         
         print(f'Products: {product_name}, Units: {units}, Price: {unit_price * units}')
     # mostramos solo el total con impuestos y fecha actual
-    print(f'Total: {total_with_tax}, Date: {datetime.datetime.now()}')
+    print(f'Total: {total_with_tax}, Date: {datetime.date.today()}')
 
 
 calculate_total_amount(ticket)
