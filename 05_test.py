@@ -29,3 +29,4 @@ agregar_nombre("Ana, Alberto, Beatriz, Carlos, Alicia, Xulio, Juan")
 mostrar_nombres()
 buscar_por_letra("C")
 print(f"Cantidad total de nombres: {contar_nombres()}")
+
